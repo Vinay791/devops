@@ -1,0 +1,10 @@
+pipleline{
+     agent any
+         stages{
+              stage("hello"){
+                  steps{
+                      echo "welcome to the jenkins pipeline"
+                  }
+             }
+     }
+}
